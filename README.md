@@ -2,7 +2,7 @@
 
 ![color](gifs/color.gif)
 
-Simple Tkinter GUI for traditiotal image enhancement techniques to function as a baseline against DL methods.
+Simple Tkinter GUI for traditional image enhancement techniques to function as a baseline against DL methods.
 
 ## Features
 - Load and display images (auto-resizes large images)
