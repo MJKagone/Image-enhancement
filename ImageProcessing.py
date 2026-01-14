@@ -122,6 +122,10 @@ class ImageProcessing:
 
     def inpaint(self, image, mask, frame):
         image = np.array(image)
+
+        if image.ndim == 3 and image.shape[2] == 4:
+            image = cv2.cvtColor(image, cv2.COLOR_RGBA2RGB)
+        
         mask = np.array(mask)
         mask = mask.astype(np.uint8)
         mask = cv2.threshold(mask, 127, 255, cv2.THRESH_BINARY)[1]
