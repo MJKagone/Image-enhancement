@@ -10,13 +10,7 @@ Simple Tkinter GUI for traditional image enhancement techniques to function as a
 - Draw mask for inpainting
 - Save enhanced image
 
-## Usage
-1. Click "Load image"
-2. Apply operations using the buttons
-3. For inpainting, draw mask in the popup and click "Apply"
-4. Click "Save image" to write the result or "Reset" to revert to original
-
-# More examples
+## More examples
 ![sharpen](gifs/sharpen.gif)
 ![denoise](gifs/denoise.gif)
 ![inpaint](gifs/inpaint.gif)
